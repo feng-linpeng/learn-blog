@@ -6,6 +6,7 @@ const links: any[] = socialLinks
 
 export default defineConfig({
   title: "Peng's Learn",
+  base: '/learn-blog/',
   themeConfig: {
     nav,
     sidebar: mySide,
