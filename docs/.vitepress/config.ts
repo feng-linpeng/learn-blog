@@ -5,7 +5,7 @@ import mySide from './config/side'
 const links: any[] = socialLinks
 
 export default defineConfig({
-  title: "Peng's Learn",
+  title: "Peng's Learn Notes",
   base: '/learn-blog/',
   themeConfig: {
     nav,

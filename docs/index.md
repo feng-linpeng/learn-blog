@@ -2,27 +2,30 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: 琐碎日常
+  text: 一些乱七八糟的记录~
+  tagline: Wait Update...
   image:
-    src: /logo.png
+    src: https://preview.qiantucdn.com/58pic/44/33/37/39E58PIC2W7QS00RNbIc3_PIC2018.gif!w580_new_772
     alt: VitePress
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
+      text: 日常记录
+      link: /views/all/index
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: 简介
+      link: /views/desc/index
 features: 
-  - icon: ⚡️ 
-    title: Vite, The DX that can't be beat 
-    details: Lorem ipsum... 
-  - icon: 🖖 
-    title: Power of Vue meets Markdown 
-    details: Lorem ipsum... 
-  - icon: 🛠️ 
-    title: Simple and minimal, always 
-    details: Lorem ipsum...
+  - icon: 🎯 
+    title: 知其然
+    details: 知其所以然
+  - icon: 🥏
+    title: 探索学习过程的意义
+    details: 远大于未知的结果
+  - icon: 🏓
+    title: 行百里者
+    details: 半九十
+  - icon: 🧨 
+    title: 平安喜乐
+    details: 得偿所愿
 ---
