@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.e4394271.js";const m=JSON.parse('{"title":"TypeScript \u8BB0\u5F55","description":"","frontmatter":{"title":"TypeScript \u8BB0\u5F55"},"headers":[],"relativePath":"views/ts/index.md"}'),s={name:"views/ts/index.md"};function a(n,c,i,o,p,d){return r(),t("div")}const f=e(s,[["render",a]]);export{m as __pageData,f as default};
