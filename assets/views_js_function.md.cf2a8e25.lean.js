@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as n}from"./app.e4394271.js";const d=JSON.parse('{"title":"JS\u51FD\u6570\u65B9\u6CD5","description":"","frontmatter":{"title":"JS\u51FD\u6570\u65B9\u6CD5"},"headers":[],"relativePath":"views/js/function.md"}'),o={name:"views/js/function.md"};function s(a,c,r,i,_,p){return n(),e("div")}const m=t(o,[["render",s]]);export{d as __pageData,m as default};
