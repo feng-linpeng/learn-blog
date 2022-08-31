@@ -4,8 +4,8 @@
  */
  const allViews = [
   {
-        text: "All",
-        items: [{ text: "Index", link: "/views/all/index" }],
+        text: "日常记录",
+        items: [{ text: "乱七八糟的记录", link: "/views/all/index" }],
   },
 ];
 const cssViews = [
@@ -26,10 +26,20 @@ const jsViews = [
 },
 ]
 const tsViews = [
-  {
+      {
         text: "TypeScript",
-        items: [{ text: "Index", link: "/views/ts/index" }],
-  },
+        items: [
+          {text:"ts学习记录",link: "/views/ts/index.md"}
+        ]
+      },
+      {
+        text: "Ts方法",
+        items: [
+          { text: "Debounce", link: "/views/ts/function/debounce" },
+          { text: "Throttle", link: "/views/ts/function/throttle" },
+          { text: "FormateDate", link: "/views/ts/function/formatDate" }
+        ],
+      },
 ];
 const vueViews = [
   {
