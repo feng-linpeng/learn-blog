@@ -15,21 +15,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with: 
-          ref: master
+          with: 
+            ref: master
+      - name: Cache
+        uses: pnpm/action-setup@v2
+          with: 
+            version: 7.9.5
       # Runs a set of commands using the runners shell
       - name: UseNode
         uses: actions/setup-node@v3 
-        with: 
-          node-version: 16.17.0
+          with: 
+            node-version: 16.17.0
       - name: Build
         run: |
           pnpm install
           pnpm build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: github-pages
-          full_commit_message: ${{ github.event.head_commit.message }}
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./build
+            publish_branch: github-pages
+            full_commit_message: ${{ github.event.head_commit.message }}
