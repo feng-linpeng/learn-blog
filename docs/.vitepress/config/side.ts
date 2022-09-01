@@ -57,13 +57,14 @@ const reactViews = [
   },
 ];
 const toolsViews = [
-      {
-            text: "Tools",
-            items: [
-                { text: "Index", link: "/views/tools/index" },
-                { text: "VsCode", link: "/views/tools/vscode" },
-            ],
-      },
+  {
+    text: "环境&工具",
+    items: [
+      { text: "Git", link: "/views/tools/git" },
+      { text: "Node", link: "/views/tools/node" },
+      { text: "VsCode", link: "/views/tools/vscode" }
+    ],
+  }
 ];
 
 export default {
