@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home nil
 
 hero:
   name: 琐碎日常
@@ -20,7 +20,7 @@ features:
     title: 知其然
     details: 知其所以然
   - icon: 🥏
-    title: 探索学习过程的意义
+    title: 过程的意义
     details: 远大于未知的结果
   - icon: 🏓
     title: 行百里者

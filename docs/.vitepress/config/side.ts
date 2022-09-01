@@ -10,8 +10,11 @@
 ];
 const cssViews = [
   {
-        text: "Css",
-        items: [{ text: "Index", link: "/views/css/index" }],
+    items: [
+      { text: "css属性", link: "/views/css/index" },
+      { text: "文本处理", link: "/views/css/text" },
+      { text: "居中方法", link: "/views/css/center" },
+    ],
   },
 ];
 const jsViews = [
@@ -53,19 +56,22 @@ const reactViews = [
         items: [{ text: "Index", link: "/views/react/index" }],
   },
 ];
-const engineeringViews = [
-  {
-        text: "Engineering",
-        items: [{ text: "Index", link: "/views/engireering/index" }],
-  },
+const toolsViews = [
+      {
+            text: "Tools",
+            items: [
+                { text: "Index", link: "/views/tools/index" },
+                { text: "VsCode", link: "/views/tools/vscode" },
+            ],
+      },
 ];
 
 export default {
-  "/views/all/": allViews,
-  "/views/css/": cssViews,
-  "/views/js/": jsViews,
-  "/views/ts/": tsViews,
-  "/views/vue/": vueViews,
-  "/views/react/": reactViews,
-  "/views/engineering/": engineeringViews,
+      "/views/all/": allViews,
+      "/views/css/": cssViews,
+      "/views/js/": jsViews,
+      "/views/ts/": tsViews,
+      "/views/vue/": vueViews,
+      "/views/react/": reactViews,
+      "/views/tools/": toolsViews,
 };

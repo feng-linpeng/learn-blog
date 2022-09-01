@@ -1,12 +1,12 @@
 const nav = [
   // 路由
   { text: "日常记录", link: "/views/all/index.md" },
-  // { text: "Css", link: "/views/css/index.md" },
+  { text: "Css", link: "/views/css/index.md" },
   { text: "JS", link: "/views/js/index.md" },
   { text: "TypeScript", link: "/views/ts/index.md" },
   { text: "Vue", link: "/views/vue/index.md" },
-  // { text: "React", link: "/views/react/index.md" },
-  // { text: "工程化", link: "/views/engineering/index.md" }
+  { text: "React", link: "/views/react/index.md" },
+  { text: "工具&配置", link: "/views/tools/index.md" }
 ];
 // 外链
 const socialLinks = [

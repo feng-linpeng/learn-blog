@@ -10,6 +10,6 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar: mySide,
-    socialLinks: links,
+    socialLinks: links
   },
 });
