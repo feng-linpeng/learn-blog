@@ -6,7 +6,6 @@ hero:
   text: 一些乱七八糟的记录~
   tagline: Wait Update...
   image:
-    # src: /.vitepress/public/img/it.gif
     src: http://124.223.98.87:1234/blogImg/it.gif
     alt: VitePress
   actions:
