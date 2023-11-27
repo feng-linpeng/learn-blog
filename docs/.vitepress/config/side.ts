@@ -3,10 +3,7 @@
  * collapsed 默认折叠
  */
  const allViews = [
-  {
-        text: "日常记录",
-        items: [{ text: "乱七八糟的记录", link: "/views/all/index" }],
-  },
+  {items: [{ text: "日常记录", link: "/views/all/index" }]}
 ];
 const cssViews = [
   {

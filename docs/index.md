@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: 琐碎日常
-  text: 一些乱七八糟的记录~
+  name: scaryL1n
+  text: 知其然
   tagline: Wait Update...
   image:
     src: http://124.223.98.87:1234/blogImg/it.gif
