@@ -26,7 +26,7 @@ const formatDate = ({ format = TIME_FORMAT, date = new Date() }: FormatParams = 
   if (!Typer.isDate(resetDate)) {
     if (resetDate.match(matchDate)) {
       resetDate = new Date(Date.parse(resetDate.replace(/-/g, '/')));
-    } else if (date.match(matchDateTime)) {
+    } else if (resetDate.match(matchDateTime)) {
       resetDate = new Date(resetDate.replace(/-/g, '/'));
     } else if (resetDate.match(matchTimeStamp)) {
       const timeStamp = toEmpty.reStringEmpty(date);

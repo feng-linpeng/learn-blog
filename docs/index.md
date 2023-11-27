@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: scaryL1n
-  text: 知其然
-  tagline: Wait Update...
+  name: 过程的意义
+  text: 远大于未知的结果
+  tagline: You can you up，No can no BB
   image:
     src: http://124.223.98.87:1234/blogImg/it.gif
     alt: VitePress

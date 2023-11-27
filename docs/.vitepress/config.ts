@@ -5,7 +5,7 @@ import mySide from './config/side'
 const links: any[] = socialLinks
 
 export default defineConfig({
-  title: "Peng's Learn Notes",
+  title: "scaryL1n",
   base: '/learn-blog/',
   themeConfig: {
     nav,
@@ -15,7 +15,7 @@ export default defineConfig({
       appId: 'BHRNRR37VX',
       apiKey: 'b80f083d0561b9b7a242e1bfba1d929a',
       indexName: 'index',
-      placeholder: '搜索点什么',
+      placeholder: 'What do you want to search',
       buttonText: 'Go Search'
     }
   },
